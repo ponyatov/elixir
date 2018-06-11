@@ -1,0 +1,49 @@
+<hmtl>
+
+<h2>do not !</h2>
+
+<h3>Debian packages always obsoleted by distro policy</h3>
+
+<pre>
+$ sudo apt install erlang-inets elixir
+</pre>
+
+<h3>erlang-solutions are slowpokes with wheezy Debian</h3>
+
+<pre> and this does nothing
+
+wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+dpkg -i erlang.deb
+</pre>
+
+<h2>Only Source Build, only hardcore!</h2>
+
+<h3>Erlang R20</h3>
+
+<pre>
+mkdir ~/elixir/install ; cd ~/elixir/install
+wget -c http://www.erlang.org/download/otp_src_20.3.tar.gz
+tar zx < otp_src_20.3.tar.gz
+# <b>no out of tree build</b>
+cd otp_src_20.3
+<b>export ERL_TOP=`pwd`</b>
+sudo apt install libncurses5-dev libssl-dev
+make distclean
+../configure --without-javac --with-ssl --without-wx
+make
+
+# <i>20m53s</i>
+
+sudo make install
+</pre>
+
+<h2>Elixir</h2>
+
+<pre>
+cd ~/elixir/install
+wget -c https://github.com/elixir-lang/elixir/archive/v1.6.5.tar.gz
+tar zx < v1.6.5.tar.gz
+cd elixir-1.6.5
+
+</pre>
+

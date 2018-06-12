@@ -21,15 +21,19 @@ dpkg -i erlang.deb
 <h3>Erlang R20</h3>
 
 <pre>
+./apt.rc
+
 mkdir ~/elixir/install ; cd ~/elixir/install
-wget -c http://www.erlang.org/download/otp_src_20.3.tar.gz
+./down.rc
+
 tar zx < otp_src_20.3.tar.gz
 # <b>no out of tree build</b>
 cd otp_src_20.3
 <b>export ERL_TOP=`pwd`</b>
-sudo apt install libncurses5-dev libssl-dev
-make distclean
-../configure --without-javac --with-ssl --without-wx
+
+[make distclean]
+../configure --without-javac
+
 make
 
 # <i>20m53s</i>

@@ -1,6 +1,10 @@
-# Iot
+# IoT
+### IoT north side platform for ThingPark/ErTelecom
 
-**TODO: Add description**
+This demo server was 
+- written in Elixir language 
+- for testing Erland/OTP abilities to 
+- hold high load as application server platform. 
 
 ## Installation
 

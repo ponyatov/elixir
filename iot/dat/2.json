@@ -1,0 +1,8 @@
+POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10934615 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 764
+
+{"DevEUI_uplink": {"Time": "2018-06-21T10:42:51.000+00:00","DevEUI": "2201200000000022","FPort": 2,"FCntUp": 1667,"ADRbit": 1,"MType": 2,"FCntDn": 460,"payload_hex": "033c002d0002244d2c33303030303030302c32302c3052322c54613d3032362e30432c55613d3033322e37502c50613d303030","mic_hex": "06f95b57","Lrcid": "00000241","LrrRSSI": -32.000000,"LrrSNR": 9.500000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -32.000000,"LrrSNR": 9.500000,"LrrESP": -32.461838}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000010,"DevAddr": "04409B24"}}

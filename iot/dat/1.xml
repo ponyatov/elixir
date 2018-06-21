@@ -1,0 +1,9 @@
+POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10931289 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/xml
+Content-Length: 1038
+Expect: 100-continue
+
+<?xml version="1.0" encoding="UTF-8"?><DevEUI_uplink xmlns="http://uri.actility.com/lora"><Time>2018-06-21T10:33:51.000+00:00</Time><DevEUI>2201200000000022</DevEUI><FPort>2</FPort><FCntUp>1662</FCntUp><ADRbit>1</ADRbit><MType>2</MType><FCntDn>460</FCntDn><payload_hex>033c002d0002244d2c33303030303030302c32302c3052322c54613d3032352e38432c55613d3033332e30502c50613d303030</payload_hex><mic_hex>e45e3e6f</mic_hex><Lrcid>00000241</Lrcid><LrrRSSI>-35.000000</LrrRSSI><LrrSNR>10.500000</LrrSNR><SpFact>7</SpFact><SubBand>G1</SubBand><Channel>LC1</Channel><DevLrrCnt>1</DevLrrCnt><Lrrid>DA00521C</Lrrid><Late>0</Late><LrrLAT>90.000000</LrrLAT><LrrLON>90.000000</LrrLON><Lrrs><Lrr><Lrrid>DA00521C</Lrrid><Chain>0</Chain><LrrRSSI>-35.000000</LrrRSSI><LrrSNR>10.500000</LrrSNR><LrrESP>-35.370777</LrrESP></Lrr></Lrrs><CustomerID>1100000060</CustomerID><CustomerData>{"alr":{"pro":"LORA/Generic","ver":"1"}}</CustomerData><ModelCfg>0</ModelCfg><InstantPER>0.000000</InstantPER><MeanPER>0.000010</MeanPER><DevAddr>04409B24</DevAddr></DevEUI_uplink>

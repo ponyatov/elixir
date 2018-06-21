@@ -1,0 +1,134 @@
+POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10937731 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 764
+
+{"DevEUI_uplink": {"Time": "2018-06-21T10:51:52.000+00:00","DevEUI": "2201200000000022","FPort": 2,"FCntUp": 1670,"ADRbit": 1,"MType": 2,"FCntDn": 460,"payload_hex": "033c002d0002244d2c33303030303030302c32302c3052322c54613d3032362e31432c55613d3033322e37502c50613d303030","mic_hex": "793260c0","Lrcid": "00000241","LrrRSSI": -34.000000,"LrrSNR": 9.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -34.000000,"LrrSNR": 9.250000,"LrrESP": -34.487720}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000010,"DevAddr": "04409B24"}}POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10942958 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 766
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:06:52.000+00:00","DevEUI": "2201200000000022","FPort": 2,"FCntUp": 1671,"ADRbit": 1,"MType": 2,"FCntDn": 461,"payload_hex": "033c002d0002244d2c33303030303030302c32302c3052322c54613d3032362e31432c55613d3033322e32502c50613d303030","mic_hex": "f42ccb87","Lrcid": "00000241","LrrRSSI": -34.000000,"LrrSNR": 10.500000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -34.000000,"LrrSNR": 10.500000,"LrrESP": -34.370777}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000010,"DevAddr": "04409B24"}}POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10943078 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 846
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:07:09.000+00:00","DevEUI": "2201200000000022","FPort": 2,"FCntUp": 1672,"ADRbit": 1,"MType": 2,"FCntDn": 461,"payload_hex": "033c002d0002244d2c33303030303030302c32302c3052322c54613d3032362e31432c55613d3033322e37502c50613d303030","mic_hex": "af883f8a","Lrcid": "00000241","LrrRSSI": -34.000000,"LrrSNR": 9.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -34.000000,"LrrSNR": 9.250000,"LrrESP": -34.487720}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","BatteryLevel": 255,"BatteryTime": "2018-06-21T11:07:09.000+00:00","Margin": "30","InstantPER": 0.000000,"MeanPER": 0.000010,"DevAddr": "04409B24"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944542 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:11:37.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 45,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d000f1f8b08005e2db25702038d96db8edb201086ef2bf52df62a2215300c984bc0b88d9a836b7bbbeafbbf48191f02","mic_hex": "041130f9","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 9.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 9.250000,"LrrESP": -47.487720}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944649 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 762
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:11:50.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 46,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d010fde18691d279695ff63fe6106ecb7fe7a7930e01a3870ce6ef207370a185f0ec104f246682605ddb2f9dcaecb69","mic_hex": "5edfac98","Lrcid": "00000241","LrrRSSI": -49.000000,"LrrSNR": 10.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -49.000000,"LrrSNR": 10.250000,"LrrESP": -49.391785}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944753 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:12:02.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 47,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d020fe807902dccc9e0f76f6fef63df1663c6293c6ee7419eaf8fc1b1267628517a61bbc86e8f365e59f7c12eb77861","mic_hex": "ed7f6c09","Lrcid": "00000241","LrrRSSI": -49.000000,"LrrSNR": 9.750000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -49.000000,"LrrSNR": 9.750000,"LrrESP": -49.437260}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944809 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:12:14.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 48,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d030fe3e4a6c82e215c5a763ea99086eab5c2310e79b474da74138255ca685416a131429f7893d4e1d7f4af8f3bb16e","mic_hex": "1fe8da4c","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 9.750000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 9.750000,"LrrESP": -47.437260}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944862 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 762
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:12:27.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 49,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d040face011221880f9fb3c347db45156271cd41a6c2227f7693f46529f78bb2a5a3259fe8d0aacf227698a21f68605","mic_hex": "0f4d3ea9","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 10.500000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 10.500000,"LrrESP": -47.370777}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10944953 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 762
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:12:39.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 50,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d050f3780a0c84193a6573501524c295720de27e13e134d522b6282b786ae867cea2e33f29059e2ac87718911459cf1","mic_hex": "c76d4dad","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 11.000000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 11.000000,"LrrESP": -47.331955}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945027 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:12:51.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 51,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d060f90815d1ca4e9b44fe6e7788c4081a884609b11d77f2d8c28c20c8f63068b742c313c3362386652c594b39eae5d","mic_hex": "6df2d2cb","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 9.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 9.250000,"LrrESP": -47.487720}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945082 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 762
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:13:04.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 52,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d070fa0692bbcc90a533487f114676b89fe6370e36b419738e82c65e3bb44185b10ee885099089c62f882f0470412b1","mic_hex": "073c3b5d","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 10.500000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 10.500000,"LrrESP": -47.370777}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945143 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 762
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:13:16.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 53,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d080fb852544ccd0b221c11ba20280f2d323154f248ede91c689f8c11010551c92313547b53c6a8e46176ae7644258f","mic_hex": "12bee223","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 10.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 10.250000,"LrrESP": -47.391785}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945202 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:13:28.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 54,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d090f4c500d8dcc4457c9a301540d5552531e5c1744258f4ca84f35ef2a79343b57baa86057c923132d117125fe5ea7","mic_hex": "b45cf774","Lrcid": "00000241","LrrRSSI": -46.000000,"LrrSNR": 7.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC3","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -46.000000,"LrrSNR": 7.250000,"LrrESP": -46.749496}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945265 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:13:41.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 55,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d0a0f17537a5df5a82d6a4d01c064b93f92d3829fc7179481b2591e8ee4fa29a705a8dc2a0fefb54a23609837a296fa","mic_hex": "9c1b3f80","Lrcid": "00000241","LrrRSSI": -47.000000,"LrrSNR": 9.250000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -47.000000,"LrrSNR": 9.250000,"LrrESP": -47.487720}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945367 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:13:53.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 56,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d0b0f0f44062a1384cf7469b92a9f81cafce0aec39f11ba4b657a5caa593285926a1c9eeacaecb8355db73d25167565","mic_hex": "ae3eb4eb","Lrcid": "00000241","LrrRSSI": -46.000000,"LrrSNR": 7.000000,"SpFact": 7,"SubBand": "G1","Channel": "LC3","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -46.000000,"LrrSNR": 7.000000,"LrrESP": -46.790096}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945431 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:14:05.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 57,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d0c0f7236b52f37c1dfa9b8e3911ec00262ea1f45ab99fb425ff1bee905755b57e82bee2df95120e79daf2df415ff9b","mic_hex": "554be04c","Lrcid": "00000241","LrrRSSI": -46.000000,"LrrSNR": 8.750000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -46.000000,"LrrSNR": 8.750000,"LrrESP": -46.543648}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945502 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 760
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:14:18.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 58,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "0379022d0d0f7ede2bb6d6e986f8e7559e847ede5e9bf478dc2a35c47b5b4ad7f780dde3fe2b677a1710a9d1ff030b78caf660","mic_hex": "0a5252c7","Lrcid": "00000241","LrrRSSI": -51.000000,"LrrSNR": 9.750000,"SpFact": 7,"SubBand": "G1","Channel": "LC1","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -51.000000,"LrrSNR": 9.750000,"LrrESP": -51.437260}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=1100000000000011&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10945573 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 676
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:14:30.000+00:00","DevEUI": "1100000000000011","FPort": 2,"FCntUp": 59,"ADRbit": 1,"MType": 2,"FCntDn": 5,"payload_hex": "037902030e0f080000","mic_hex": "aaacb811","Lrcid": "00000241","LrrRSSI": -46.000000,"LrrSNR": 8.750000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -46.000000,"LrrSNR": 8.750000,"LrrESP": -46.543648}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000000,"DevAddr": "044072C7"}}POST /?LrnDevEui=2201200000000022&LrnFPort=2&LrnInfos=TWA_1100000060.154.AS-1-10946035 HTTP/1.1
+Host: 37.61.176.232:8001
+User-Agent: ACTILITY-LRCLRN-DEVICE-AGENT/1.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 766
+
+{"DevEUI_uplink": {"Time": "2018-06-21T11:15:52.000+00:00","DevEUI": "2201200000000022","FPort": 2,"FCntUp": 1673,"ADRbit": 1,"MType": 2,"FCntDn": 461,"payload_hex": "033c002d0002244d2c33303030303030302c32302c3052322c54613d3032362e32432c55613d3033322e32502c50613d303030","mic_hex": "def35242","Lrcid": "00000241","LrrRSSI": -33.000000,"LrrSNR": 10.500000,"SpFact": 7,"SubBand": "G1","Channel": "LC2","DevLrrCnt": 1,"Lrrid": "DA00521C","Late": 0,"LrrLAT": 90.000000,"LrrLON": 90.000000,"Lrrs": {"Lrr": [{"Lrrid": "DA00521C","Chain": 0,"LrrRSSI": -33.000000,"LrrSNR": 10.500000,"LrrESP": -33.370777}]},"CustomerID": "1100000060","CustomerData": {"alr":{"pro":"LORA/Generic","ver":"1"}},"ModelCfg": "0","InstantPER": 0.000000,"MeanPER": 0.000010,"DevAddr": "04409B24"}}

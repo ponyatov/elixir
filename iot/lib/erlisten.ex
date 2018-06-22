@@ -18,10 +18,10 @@ defmodule ErListener do
     spawn fn ->
       case :gen_tcp.listen(port,[:binary, active: false, reuseaddr: true]) do
         {:ok,socket} ->
-          Logger.info("connected on #{port}")
+          Logger.info("connected on #{inspect port}")
           accept_connection(socket)
         {:error,reason} ->
-          Logger.error("listen ${port} error")
+          Logger.error("listen #{inspect port} error #{inspect reason}")
       end
     end
   end
@@ -31,9 +31,25 @@ defmodule ErListener do
     {:ok, client} = :gen_tcp.accept(socket)
     spawn fn ->
       {:ok, buffer} = Buffer.create()
-      Logger.info "Buffer: #{buffer}" 
+      Logger.info "Buffer: #{inspect buffer}"
+      Process.flag(:trap_exit, true)					# break crash link
+      Logger.info "client:#{inspect client} with buffer:#{inspect buffer}"
+      serve(client, buffer)
     end
-    # loop_accept(socket)
+    #loop_accept(socket)
+  end
+  
+  @doc "buffered connection processing"
+  def serve(client, buffer) do
+    Logger.info "serve:#{inspect [client,buffer]}"
+    case :gen_tcp.recv(socket, 0) do
+      {:error, reason} ->
+        Logger.info("Socket terminating: #{inspect reason}")
+      {:ok, data} ->
+        buffer = maybe_recreate_buffer(buffer)
+        Buffer.hold(buffer, data)
+        serve(client, buffer) # loop
+    end
   end
   
 end
